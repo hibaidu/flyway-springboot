@@ -13,7 +13,7 @@ spring:
     #禁止清理数据库
     clean-disabled: true
 
-    # 如果数据库不是空表，需要设置成 true，否则启动报错
+    # 如果数据库不是空表，需要设置成 true，否则启动报错，当历史表新添加flyway时，可使用 bashline-version 选项跳过指定版本
     baseline-on-migrate: true
     baseline-version: 0
 
